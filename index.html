@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Azharuddin Raza Qadri | AI Portfolio & Links</title>
+    <title>Azharuddin Khan | AI Portfolio & Resumes</title>
     <!-- Tailwind CSS CDN -->
     <script src="https://cdn.tailwindcss.com"></script>
     <!-- FontAwesome for Icons -->
@@ -51,14 +51,15 @@
         <!-- Profile Header -->
         <div class="text-center relative z-10">
             <div class="relative inline-block mx-auto mb-4">
-                <!-- Profile Image with Safe Fallback to prevent 404 console errors -->
-                <img src="profile.jpeg" alt="Azharuddin Raza Qadri" class="w-28 h-28 rounded-full object-cover border-4 border-indigo-500/50 shadow-2xl mx-auto bg-slate-800" onerror="this.onerror=null; this.src='https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150';">
+                <!-- Profile Image -->
+                <img src="profile.jpeg" alt="Azharuddin Khan" class="w-28 h-28 rounded-full object-cover border-4 border-indigo-500/50 shadow-2xl mx-auto bg-slate-800" onerror="this.onerror=null; this.src='https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150';">
                 <span class="absolute bottom-1 right-1 bg-green-500 w-5 h-5 rounded-full border-2 border-slate-900 animate-pulse" title="Active"></span>
             </div>
             
-            <h1 class="text-2xl font-bold tracking-wide glow">Azharuddin Raza Qadri</h1>
-            <p class="text-xs text-indigo-300 font-medium mt-1">⚔️ PATHAN | 🇮🇳 India | BR24 | 🤍 Alhamdulillah</p>
-            <p class="text-xs text-slate-400 mt-2">BTech AI & ML Graduate | Full Stack & Data Science Enthusiast</p>
+            <h1 class="text-2xl font-bold tracking-wide glow">Azharuddin Khan</h1>
+            <p class="text-xs text-indigo-300 font-medium mt-1">⚔️ PATHAN | 🇮🇳 Bhopal, Madhya Pradesh | 🤍 Alhamdulillah</p>
+            <p class="text-xs text-slate-300 mt-2 font-medium">Sarvepalli Radhakrishnan University</p>
+            <p class="text-[11px] text-slate-400 mt-0.5">BTech AI & ML (2022–2026)</p>
         </div>
 
         <!-- Interactive AI Assistant Bot Widget -->
@@ -69,7 +70,28 @@
                 </span>
                 <span class="px-2 py-0.5 bg-green-500/20 text-green-400 border border-green-500/30 rounded-full text-[10px]">Active</span>
             </div>
-            <p id="ai-response-text">👋 Hello! Click here to ask me anything about Azharuddin's skills, projects, or background.</p>
+            <p id="ai-response-text">👋 Hello! Click here to ask me anything about Azharuddin's skills, projects, or contacts.</p>
+        </div>
+
+        <!-- Resume Showcase Section (Dono Resumes Yahan Khulenge) -->
+        <div class="mt-6 pt-4 border-t border-white/10 relative z-10">
+            <h2 class="text-xs font-semibold text-slate-300 uppercase tracking-wider mb-3 flex items-center gap-1.5">
+                <i class="fa-solid id-card text-pink-400"></i> View My Resumes
+            </h2>
+            <div class="grid grid-cols-2 gap-2.5">
+                <!-- Full Stack Resume Button -->
+                <button onclick="openModal('fullstack')" class="glass-btn p-3 rounded-xl text-center flex flex-col items-center justify-center gap-1 group">
+                    <i class="fa-solid fa-code text-indigo-400 text-base group-hover:scale-110 transition"></i>
+                    <span class="text-xs font-medium text-slate-200">Full Stack Resume</span>
+                    <span class="text-[9px] text-indigo-300">View Details →</span>
+                </button>
+                <!-- Data Science Resume Button -->
+                <button onclick="openModal('datascience')" class="glass-btn p-3 rounded-xl text-center flex flex-col items-center justify-center gap-1 group">
+                    <i class="fa-solid fa-chart-line text-pink-400 text-base group-hover:scale-110 transition"></i>
+                    <span class="text-xs font-medium text-slate-200">Data Science Resume</span>
+                    <span class="text-[9px] text-pink-300">View Details →</span>
+                </button>
+            </div>
         </div>
 
         <!-- Social & Direct Links -->
@@ -79,16 +101,25 @@
             <a href="https://wa.me/917324959638?text=Hi%20Azharuddin,%20I%20visited%20your%20portfolio!" target="_blank" class="glass-btn flex items-center justify-between p-3.5 rounded-xl font-medium text-sm group">
                 <span class="flex items-center gap-3">
                     <i class="fa-brands fa-whatsapp text-green-400 text-lg"></i>
-                    WhatsApp <span class="text-xs text-slate-400 font-normal">azharuddin_raza_qadri</span>
+                    WhatsApp <span class="text-xs text-slate-400 font-normal">+91 7324959638</span>
+                </span>
+                <i class="fa-solid fa-arrow-up-right-from-square text-xs text-slate-400 group-hover:text-white"></i>
+            </a>
+
+            <!-- Email -->
+            <a href="mailto:ak8597486@gmail.com" class="glass-btn flex items-center justify-between p-3.5 rounded-xl font-medium text-sm group">
+                <span class="flex items-center gap-3">
+                    <i class="fa-solid fa-envelope text-red-400 text-lg"></i>
+                    Email Me <span class="text-xs text-slate-400 font-normal">ak8597486@gmail.com</span>[cite: 3, 4]
                 </span>
                 <i class="fa-solid fa-arrow-up-right-from-square text-xs text-slate-400 group-hover:text-white"></i>
             </a>
 
             <!-- Instagram Main -->
-            <a href="https://www.instagram.com/azharuddin_raza_..." target="_blank" class="glass-btn flex items-center justify-between p-3.5 rounded-xl font-medium text-sm group">
+            <a href="https://www.instagram.com/azharuddin_raza_qadri" target="_blank" class="glass-btn flex items-center justify-between p-3.5 rounded-xl font-medium text-sm group">
                 <span class="flex items-center gap-3">
                     <i class="fa-brands fa-instagram text-pink-500 text-lg"></i>
-                    Instagram Main <span class="text-xs text-slate-400 font-normal">@azharuddin_raza_...</span>
+                    Instagram Main <span class="text-xs text-slate-400 font-normal">@azharuddin_raza_qadri</span>
                 </span>
                 <i class="fa-solid fa-arrow-up-right-from-square text-xs text-slate-400 group-hover:text-white"></i>
             </a>
@@ -122,52 +153,26 @@
 
         </div>
 
-        <!-- Recent Instagram Posts Section -->
-        <div class="mt-6 pt-4 border-t border-white/10 relative z-10">
-            <div class="flex justify-between items-center mb-3">
-                <h2 class="text-xs font-semibold text-slate-400 uppercase tracking-wider flex items-center gap-1.5">
-                    <i class="fa-solid fa-images text-pink-400"></i> Recent Instagram Posts
-                </h2>
-                <a href="https://www.instagram.com/pathan_____azzu" target="_blank" class="text-[11px] text-indigo-400 hover:underline">View All →</a>
-            </div>
-            
-            <div class="grid grid-cols-3 gap-2">
-                <a href="https://www.instagram.com/pathan_____azzu" target="_blank" class="block rounded-xl overflow-hidden border border-white/10 group aspect-square bg-slate-800">
-                    <img src="profile.jpeg" alt="Post 1" class="w-full h-full object-cover group-hover:scale-110 transition duration-300" onerror="this.src='https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150';">
-                </a>
-                <a href="https://www.instagram.com/pathan_____azzu" target="_blank" class="block rounded-xl overflow-hidden border border-white/10 group aspect-square bg-slate-800">
-                    <img src="profile.jpeg" alt="Post 2" class="w-full h-full object-cover group-hover:scale-110 transition duration-300" onerror="this.src='https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=150';">
-                </a>
-                <a href="https://www.instagram.com/pathan_____azzu" target="_blank" class="block rounded-xl overflow-hidden border border-white/10 group aspect-square bg-slate-800">
-                    <img src="profile.jpeg" alt="Post 3" class="w-full h-full object-cover group-hover:scale-110 transition duration-300" onerror="this.src='https://images.unsplash.com/photo-1492562080023-ab3db95bfbce?w=150';">
-                </a>
-            </div>
-        </div>
-
-        <!-- Resume Highlights & Projects -->
-        <div class="mt-6 pt-4 border-t border-white/10 relative z-10">
-            <h2 class="text-xs font-semibold text-slate-400 uppercase tracking-wider mb-2 flex items-center gap-1.5">
-                <i class="fa-solid fa-graduation-cap text-indigo-400"></i> Resume Highlights & Projects
-            </h2>
-            <div class="p-3 rounded-xl bg-white/5 border border-white/10 text-xs space-y-2">
-                <div class="font-medium text-indigo-300">🎓 BTech AI & ML (2022–2026) — Sarvepalli Radhakrishnan University</div>
-                <p class="text-slate-300 text-[11px]">Specialized in Python, SQL, Machine Learning pipelines, Streamlit Dashboards & React.js.</p>
-                <div class="flex flex-wrap gap-1.5 pt-1">
-                    <span class="px-2 py-0.5 bg-indigo-500/20 border border-indigo-500/30 rounded text-[10px] text-indigo-200">Swiggy Analytics</span>
-                    <span class="px-2 py-0.5 bg-purple-500/20 border border-purple-500/30 rounded text-[10px] text-purple-200">Real-Time ChatApp</span>
-                    <span class="px-2 py-0.5 bg-pink-500/20 border border-pink-500/30 rounded text-[10px] text-pink-200">Customer Churn</span>
-                </div>
-            </div>
-        </div>
-
         <!-- Footer -->
         <div class="mt-6 text-center text-[10px] text-slate-500 relative z-10">
-            © 2026 Azharuddin Raza Qadri. Built with 3D Glass & AI Interface.
+            © 2026 Azharuddin Khan. Built with 3D Glass & AI Interface.
         </div>
 
     </div>
 
-    <!-- JavaScript for Interactive AI Assistant -->
+    <!-- Resume Modal Popup -->
+    <div id="resumeModal" class="fixed inset-0 bg-black/80 backdrop-blur-sm z-50 hidden flex items-center justify-center p-4">
+        <div class="glass-card w-full max-w-lg rounded-3xl p-6 relative max-h-[85vh] overflow-y-auto border border-white/20">
+            <button onclick="closeModal()" class="absolute top-4 right-4 text-slate-400 hover:text-white text-lg bg-white/10 w-8 h-8 rounded-full flex items-center justify-center">
+                <i class="fa-solid fa-xmark"></i>
+            </button>
+            <div id="modalContent" class="space-y-4 text-xs text-slate-300">
+                <!-- Content will dynamically load here -->
+            </div>
+        </div>
+    </div>
+
+    <!-- JavaScript for AI Bot & Resumes Popup -->
     <script>
         function triggerAIBot() {
             const query = prompt("🤖 AI Assistant: What would you like to know about Azharuddin?\n(Type: skills, projects, education, or contact)");
@@ -177,16 +182,68 @@
             
             const q = query.toLowerCase().trim();
             if (q.includes("skill") || q.includes("python") || q.includes("ai")) {
-                textElement.innerHTML = "✨ <b>Skills:</b> Python, SQL, Machine Learning, Data Science, React.js & Tailwind CSS!";
+                textElement.innerHTML = "✨ <b>Skills:</b> Python, JavaScript, React.js, Firebase, SQL, Pandas, NumPy, Scikit-learn & Machine Learning!";
             } else if (q.includes("project") || q.includes("swiggy") || q.includes("chatapp")) {
-                textElement.innerHTML = "🚀 <b>Projects:</b> Swiggy Analytics, Real-Time ChatApp, and Customer Churn Prediction.";
+                textElement.innerHTML = "🚀 <b>Projects:</b> ChatApp (React & Firebase), Swiggy Enterprise Analytics, Customer Churn Prediction, & Sales Data Analysis.";
             } else if (q.includes("education") || q.includes("college") || q.includes("btech")) {
-                textElement.innerHTML = "🎓 <b>Education:</b> BTech in AI & ML (2022-2026) from Sarvepalli Radhakrishnan University.";
-            } else if (q.includes("contact") || q.includes("whatsapp") || q.includes("insta")) {
-                textElement.innerHTML = "📱 <b>Contact:</b> Connect via WhatsApp or Instagram links provided below!";
+                textElement.innerHTML = "🎓 <b>Education:</b> BTech in AI & ML (2022–2026) from Sarvepalli Radhakrishnan University, Bhopal[cite: 3, 4].";
+            } else if (q.includes("contact") || q.includes("whatsapp") || q.includes("email")) {
+                textElement.innerHTML = "📱 <b>Contact:</b> +91 7324959638 | 📧 ak8597486@gmail.com[cite: 3, 4]";
             } else {
-                textElement.innerHTML = `💡 <b>AI Response:</b> Azharuddin is a BTech AI & ML Graduate and developer based in India.`;
+                textElement.innerHTML = `💡 <b>AI Response:</b> Azharuddin Khan is a Full Stack & Data Science enthusiast based in Bhopal[cite: 3, 4].`;
             }
+        }
+
+        function openModal(type) {
+            const modal = document.getElementById("resumeModal");
+            const content = document.getElementById("modalContent");
+            modal.classList.remove("hidden");
+
+            if (type === 'fullstack') {
+                content.innerHTML = `
+                    <div class="text-center pb-3 border-b border-white/10">
+                        <h2 class="text-base font-bold text-indigo-400">Azharuddin Khan</h2>
+                        <p class="text-xs text-slate-300 font-semibold">Full Stack Engineer</p>
+                        <p class="text-[10px] text-slate-400 mt-1">Bhopal, MP | +91 7324959638 | ak8597486@gmail.com</p>[cite: 3]
+                    </div>
+                    <div>
+                        <h3 class="font-bold text-indigo-300 mb-1">🛠️ Technical Skills</h3>
+                        <p class="text-slate-300 text-[11px]"><b>Languages:</b> Python, JavaScript, SQL<br><b>Front-End:</b> React.js, HTML5, CSS3, Responsive UI/UX<br><b>Back-End:</b> Firebase (Auth, Firestore), Node.js<br><b>Databases:</b> MySQL, SQLite, Firebase Firestore</p>[cite: 3]
+                    </div>
+                    <div>
+                        <h3 class="font-bold text-indigo-300 mb-1">🚀 Key Projects</h3>
+                        <p class="text-slate-300 text-[11px]"><b>1. ChatApp (Real-Time Messaging):</b> Built with React.js & Firebase Authentication/Firestore.<br><b>2. SkillStep & SSNE Admission System:</b> Full-stack educational web apps for student data management.<br><b>3. Swiggy Enterprise Analytics:</b> Python, Streamlit, and SQLite interactive platform.</p>[cite: 3]
+                    </div>
+                    <div>
+                        <h3 class="font-bold text-indigo-300 mb-1">🎓 Education</h3>
+                        <p class="text-slate-300 text-[11px]">Sarvepalli Radhakrishnan University, Bhopal (Sep 2022 – Jun 2026)<br><b>BTech in Artificial Intelligence & Machine Learning</b></p>[cite: 3]
+                    </div>
+                `;
+            } else if (type === 'datascience') {
+                content.innerHTML = `
+                    <div class="text-center pb-3 border-b border-white/10">
+                        <h2 class="text-base font-bold text-pink-400">Azharuddin Khan</h2>
+                        <p class="text-xs text-slate-300 font-semibold">Data Science & ML Profile</p>
+                        <p class="text-[10px] text-slate-400 mt-1">Bhopal, MP | +91 7324959638 | ak8597486@gmail.com</p>[cite: 4]
+                    </div>
+                    <div>
+                        <h3 class="font-bold text-pink-300 mb-1">📊 Core Competencies</h3>
+                        <p class="text-slate-300 text-[11px]"><b>Analysis:</b> Pandas, NumPy, Data Cleaning, EDA, Statistics<br><b>Visualization:</b> Matplotlib, Seaborn, Plotly, Streamlit<br><b>Machine Learning:</b> Scikit-learn, Linear/Logistic Regression, Decision Trees</p>[cite: 4]
+                    </div>
+                    <div>
+                        <h3 class="font-bold text-pink-300 mb-1">📈 Highlighted Projects</h3>
+                        <p class="text-slate-300 text-[11px]"><b>1. Swiggy Enterprise Analytics:</b> Delivery ops dashboard with SQLite & Linear Regression forecasting.<br><b>2. Customer Churn Prediction:</b> ML pipeline using Logistic Regression & Decision Trees.<br><b>3. Netflix Content Analysis:</b> EDA & content trend predictions using Python.</p>[cite: 4]
+                    </div>
+                    <div>
+                        <h3 class="font-bold text-pink-300 mb-1">🏆 Training & Certification</h3>
+                        <p class="text-slate-300 text-[11px]">Shreyians Coding School — Python with Data Science and MySQL Bootcamp (Nov 2025 – Jul 2026)</p>[cite: 4]
+                    </div>
+                `;
+            }
+        }
+
+        function closeModal() {
+            document.getElementById("resumeModal").classList.add("hidden");
         }
     </script>
 </body>
